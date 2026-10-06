@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SoundLab Academy | Accademia Musicale</title>
+
+    <!-- Bootstrap 5 -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <!-- CSS personalizzato -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            <i class="bi bi-music-note-beamed"></i>
+            SoundLab
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuNavbar"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuNavbar">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#corsi">Corsi</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#articoli">Articoli</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+
+            </ul>
+
+            <a href="#open-day" class="btn btn-primary">
+                Open Day
+            </a>
+        </div>
+    </div>
+</nav>
+
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+
+            <div class="col-lg-7 text-center text-lg-start">
+
+                <span class="badge-custom">
+                    ACCADEMIA MUSICALE
+                </span>
+
+                <h1>
+                    Trasforma la tua
+                    <span>passione</span>
+                    in musica.
+                </h1>
+
+                <p class="hero-text">
+                    Impara a produrre, suonare e creare la tua musica
+                    con corsi pratici guidati da professionisti del settore.
+                </p>
+
+                <div class="hero-buttons d-flex flex-column flex-sm-row
+                            justify-content-center justify-content-lg-start gap-3">
+
+                    <a href="#corsi" class="btn btn-primary btn-lg">
+                        Scopri i corsi
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                    <a href="#open-day" class="btn btn-outline-light btn-lg">
+                        Partecipa all'Open Day
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-5 d-none d-lg-block">
+
+                <div class="hero-card">
+                    <div class="music-circle">
+                        <i class="bi bi-headphones"></i>
+                    </div>
+
+                    <h3>CREATE YOUR SOUND</h3>
+                    <p>
+                        Produzione · DJ · Strumento · Teoria
+                    </p>
+
+                    <div class="equalizer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ================= CORSI ================= -->
+<section id="corsi" class="section-padding courses-section">
+
+    <div class="container">
+
+        <div class="section-heading text-center">
+            <span>IMPARA FACENDO</span>
+
+            <h2>
+                Scegli il tuo
+                <strong>percorso</strong>
+            </h2>
+
+            <p>
+                Percorsi pensati per trasformare la teoria in esperienza
+                e sviluppare il tuo stile personale.
+            </p>
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+            <!-- Corso 1 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="course-card">
+
+                    <div class="course-icon">
+                        <i class="bi bi-sliders"></i>
+                    </div>
+
+                    <h3>Produzione</h3>
+
+                    <p>
+                        Impara a creare beat, arrangiare e mixare
+                        le tue produzioni.
+                    </p>
+
+                    <a href="#" class="course-link">
+                        Scopri di più →
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- Corso 2 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="course-card">
+
+                    <div class="course-icon">
+                        <i class="bi bi-music-note"></i>
+                    </div>
+
+                    <h3>Chitarra</h3>
+
+                    <p>
+                        Tecnica, teoria e repertorio per sviluppare
+                        il tuo stile musicale.
+                    </p>
+
+                    <a href="#" class="course-link">
+                        Scopri di più →
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- Corso 3 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="course-card">
+
+                    <div class="course-icon">
+                        <i class="bi bi-mic"></i>
+                    </div>
+
+                    <h3>DJ & Live</h3>
+
+                    <p>
+                        Scopri mixaggio, performance e tecniche
+                        per esibirti dal vivo.
+                    </p>
+
+                    <a href="#" class="course-link">
+                        Scopri di più →
+                    </a>
+
+                </div>
+            </div>
+
+
+            <!-- Corso 4 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="course-card">
+
+                    <div class="course-icon">
+                        <i class="bi bi-soundwave"></i>
+                    </div>
+
+                    <h3>Sound Design</h3>
+
+                    <p>
+                        Crea suoni, texture ed effetti per dare
+                        personalità alle tue produzioni.
+                    </p>
+
+                    <a href="#" class="course-link">
+                        Scopri di più →
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= ARTICOLI ================= -->
+<section id="articoli" class="section-padding articles-section">
+
+    <div class="container">
+
+        <div class="section-heading d-flex flex-column flex-md-row
+                    justify-content-between align-items-md-end">
+
+            <div>
+                <span>DAL NOSTRO BLOG</span>
+
+                <h2>
+                    Guide e <strong>tutorial</strong>
+                </h2>
+            </div>
+
+            <a href="#" class="all-articles">
+                Vedi tutti gli articoli →
+            </a>
+
+        </div>
+
+
+        <div class="row g-4 mt-3">
+
+            <!-- Articolo 1 -->
+            <div class="col-md-6 col-lg-4">
+
+                <article class="article-card">
+
+                    <div class="article-image image-production">
+                        <span>PRODUZIONE</span>
+                    </div>
+
+                    <div class="article-content">
+
+                        <small>
+                            12 GIUGNO 2026
+                        </small>
+
+                        <h3>
+                            Come iniziare a produrre musica da zero
+                        </h3>
+
+                        <p>
+                            Una guida pratica per scegliere software,
+                            strumenti e primi plugin.
+                        </p>
+
+                        <a href="#">
+                            Leggi l'articolo →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- Articolo 2 -->
+            <div class="col-md-6 col-lg-4">
+
+                <article class="article-card">
+
+                    <div class="article-image image-theory">
+                        <span>TEORIA</span>
+                    </div>
+
+                    <div class="article-content">
+
+                        <small>
+                            04 GIUGNO 2026
+                        </small>
+
+                        <h3>
+                            Le basi dell'armonia musicale
+                        </h3>
+
+                        <p>
+                            Accordi, scale e progressioni spiegati
+                            in modo semplice e pratico.
+                        </p>
+
+                        <a href="#">
+                            Leggi l'articolo →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- Articolo 3 -->
+            <div class="col-md-6 col-lg-4">
+
+                <article class="article-card">
+
+                    <div class="article-image image-mixing">
+                        <span>MIXING</span>
+                    </div>
+
+                    <div class="article-content">
+
+                        <small>
+                            28 MAGGIO 2026
+                        </small>
+
+                        <h3>
+                            5 errori comuni nel mixaggio
+                        </h3>
+
+                        <p>
+                            Gli errori più frequenti e alcuni consigli
+                            per ottenere un mix più pulito.
+                        </p>
+
+                        <a href="#">
+                            Leggi l'articolo →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="section-padding faq-section">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-9">
+
+                <div class="section-heading text-center">
+                    <span>HAI DOMANDE?</span>
+
+                    <h2>
+                        Domande <strong>frequenti</strong>
+                    </h2>
+
+                    <p>
+                        Tutto quello che devi sapere prima di iniziare
+                        il tuo percorso musicale.
+                    </p>
+                </div>
+
+
+                <div class="accordion mt-5" id="faqAccordion">
+
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header">
+
+                            <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqOne"
+                            >
+                                <span class="faq-number">01</span>
+                                Servono conoscenze musicali precedenti?
+                            </button>
+
+                        </h2>
+
+                        <div
+                            id="faqOne"
+                            class="accordion-collapse collapse show"
+                            data-bs-parent="#faqAccordion"
+                        >
+                            <div class="accordion-body">
+                                No. I nostri corsi sono pensati sia per chi
+                                parte da zero sia per chi possiede già
+                                esperienza musicale.
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header">
+
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqTwo"
+                            >
+                                <span class="faq-number">02</span>
+                                Quale software viene utilizzato?
+                            </button>
+
+                        </h2>
+
+                        <div
+                            id="faqTwo"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion"
+                        >
+                            <div class="accordion-body">
+                                Utilizziamo principalmente Ableton Live,
+                                Logic Pro e altri software professionali,
+                                in base al corso scelto.
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header">
+
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqThree"
+                            >
+                                <span class="faq-number">03</span>
+                                Quali sono gli orari delle lezioni?
+                            </button>
+
+                        </h2>
+
+                        <div
+                            id="faqThree"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion"
+                        >
+                            <div class="accordion-body">
+                                Le lezioni si svolgono dal lunedì al sabato,
+                                con fasce orarie pomeridiane e serali.
+                                Gli orari vengono concordati in base
+                                alla disponibilità degli studenti.
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header">
+
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faqFour"
+                            >
+                                <span class="faq-number">04</span>
+                                Devo avere un computer personale?
+                            </button>
+
+                        </h2>
+
+                        <div
+                            id="faqFour"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion"
+                        >
+                            <div class="accordion-body">
+                                Non è obbligatorio. L'accademia dispone
+                                di postazioni attrezzate per le attività
+                                di produzione e sound design.
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= OPEN DAY ================= -->
+<section id="open-day" class="open-day">
+
+    <div class="container text-center">
+
+        <span>SEI PRONTO A INIZIARE?</span>
+
+        <h2>
+            Vieni a conoscere
+            <strong>SoundLab.</strong>
+        </h2>
+
+        <p>
+            Partecipa al nostro Open Day e scopri corsi,
+            sale e insegnanti.
+        </p>
+
+        <a href="#" class="btn btn-light btn-lg">
+            Prenota il tuo posto
+            <i class="bi bi-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+
+    <div class="container">
+
+        <div class="row gy-4">
+
+            <div class="col-lg-5">
+
+                <a href="#" class="footer-logo">
+                    <i class="bi bi-music-note-beamed"></i>
+                    SoundLab
+                </a>
+
+                <p>
+                    Accademia musicale dedicata a produzione,
+                    strumenti e nuove tecnologie del suono.
+                </p>
+
+            </div>
+
+
+            <div class="col-6 col-lg-2">
+
+                <h5>Academy</h5>
+
+                <ul>
+                    <li><a href="#corsi">Corsi</a></li>
+                    <li><a href="#articoli">Blog</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-6 col-lg-2">
+
+                <h5>Seguici</h5>
+
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">TikTok</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-lg-3">
+
+                <h5>Contatti</h5>
+
+                <p class="mb-1">
+                    <i class="bi bi-envelope"></i>
+                    info@soundlab.it
+                </p>
+
+                <p>
+                    <i class="bi bi-telephone"></i>
+                    +39 000 000 0000
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+        <div class="footer-bottom">
+            <span>© 2026 SoundLab Academy</span>
+            <span>Made with music ♪</span>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
